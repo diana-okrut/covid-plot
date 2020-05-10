@@ -6,7 +6,9 @@ df = pd.read_csv(
     "https://raw.githubusercontent.com/opendataby/stopcovid-19/master/stopcovid_data.csv"
 )
 fig = go.Figure()
-fig.add_trace(go.Scatter(x=df.date_pub, y=df.died, mode="lines+markers", name="died"))
+fig.add_trace(
+    go.Scatter(x=df.date_pub, y=df.died, mode="lines+markers", name="died")
+)
 fig.add_trace(
     go.Scatter(x=df.date_pub, y=df.recovered, mode="lines+markers", name="recovered")
 )
