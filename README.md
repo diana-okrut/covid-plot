@@ -9,9 +9,8 @@
 
 Для получения графика необходимо:
 0) установить на пк python (https://www.python.org)
-1) установить miniconda(https://docs.conda.io/en/latest/miniconda.html)с подгруженными в ее окружение
- утилитами командной строки orca и psutil(подробнее на https://plotly.com/python/static-image-export/).
-Активировать окружение miniconda.
+1) установить miniconda(https://docs.conda.io/en/latest/miniconda.html), aктивировать окружение miniconda. 
+Подгрузить в ее окружение утилиты командной строки orca и psutil(подробнее на https://plotly.com/python/static-image-export/).
 2) загрузить такие библиотеки, как: plotly, pandas, requests(с помощью pip install).
 3)создать в директории папку results
 4) запустить файл covid.py.
