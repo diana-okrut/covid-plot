@@ -1,6 +1,6 @@
-# Данные по ситуации с COVID-19.
+#Диаграмма статистики COVID-19 в РБ.
 
-Для постоения графика используются данные с сайта http://stopcovid.belta.by/, на котором
+Для постоения графика используются открытые данные проекта https://github.com/opendataby/stopcovid-19, на котором
 публикуются официальные сведения по количеству:
 - проведенных тестов;
 - зарегистрированных случаев заболевания;
@@ -9,11 +9,10 @@
 
 Для получения графика необходимо:
 0) установить на пк python (https://www.python.org).
-1) установить miniconda(https://docs.conda.io/en/latest/miniconda.html), aктивировать окружение miniconda. 
-Подгрузить в ее окружение утилиты командной строки orca и psutil(подробнее на https://plotly.com/python/static-image-export/).
-2) загрузить такие библиотеки, как: plotly, pandas, requests(с помощью pip install).
-3)создать в директории папку results.
-4) запустить файл covid.py.
+1) установить miniconda(https://docs.conda.io/en/latest/miniconda.html), aктивировать окружение.
+Подгрузить в окружение утилиты командной строки orca и psutil(подробнее на https://plotly.com/python/static-image-export/).
+2) загрузить библиотеки plotly, pandas и requests(с помощью pip install).
+3) запустить файл covid.py.
 
 
 
